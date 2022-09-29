@@ -1,0 +1,49 @@
+{
+  "name": "catnote-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@editorjs/checklist": "^1.3.0",
+    "@editorjs/code": "^2.7.0",
+    "@editorjs/delimiter": "^1.2.0",
+    "@editorjs/editorjs": "^2.25.0",
+    "@editorjs/header": "^2.6.2",
+    "@editorjs/image": "^2.6.2",
+    "@editorjs/link": "^2.4.1",
+    "@editorjs/list": "^1.7.0",
+    "@editorjs/quote": "^2.4.0",
+    "@editorjs/simple-image": "^1.4.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.2",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@rtk-query/graphql-request-base-query": "^2.2.0",
+    "graphql": "^16.5.0",
+    "graphql-request": "^4.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/typescript-rtk-query": "^2.3.2",
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.4",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0"
+  }
+}
